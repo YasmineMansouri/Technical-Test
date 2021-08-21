@@ -6,6 +6,12 @@ import com.myproject.technicaltest.utils.Constantes;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
+/**
+ * CheckResidenceCountryValidator class that verify if the residenceCountry is "France".
+ * @author Yasmine MANSOURI
+ *
+ */
+
 public class CheckResidenceCountryValidator implements ConstraintValidator<CheckResidenceCountry, String> {
 
 

@@ -11,6 +11,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.*;
 
+/**
+ * User class is the Entity that contains the informations about the user.
+ * @author Yasmine MANSOURI
+ *
+ */
+
 @Entity
 public class User {
 
@@ -43,7 +49,6 @@ public class User {
 
     public User() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
     public User(@NotBlank(message = "username is mandatory") String username,

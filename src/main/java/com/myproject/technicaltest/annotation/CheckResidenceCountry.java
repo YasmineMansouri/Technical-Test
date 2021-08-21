@@ -11,6 +11,12 @@ import java.lang.annotation.Target;
 
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
+/**
+ * CheckResidenceCountry interface to help creating the annotation that check the residenceCountry content.
+ * @author Yasmine MANSOURI
+ *
+ */
+
 @Target({ElementType.FIELD, ElementType.METHOD, ElementType.PARAMETER, ElementType.ANNOTATION_TYPE})
 @Retention(RUNTIME)
 @Constraint(validatedBy = CheckResidenceCountryValidator.class)

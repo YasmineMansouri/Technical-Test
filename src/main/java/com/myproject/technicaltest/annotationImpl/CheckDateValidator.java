@@ -8,6 +8,11 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.ResolverStyle;
 
+/**
+ * CheckDateValidator class that verify if the date format is "yyyy-MM-dd".
+ * @author Yasmine MANSOURI
+ *
+ */
 
 public class CheckDateValidator implements ConstraintValidator<com.myproject.technicaltest.annotation.CheckDateFormat, String> {
 

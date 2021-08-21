@@ -6,10 +6,16 @@ import fr.xebia.extras.selma.IgnoreMissing;
 import fr.xebia.extras.selma.IoC;
 import fr.xebia.extras.selma.Mapper;
 
+/**
+ * UserMapper interface to map the DTO to the Entity.
+ * @author Yasmine MANSOURI
+ *
+ */
+
 @Mapper(withIoC = IoC.SPRING, withIgnoreMissing = IgnoreMissing.ALL)
 public interface UserMapper {
 
     UserDto asUserDto(User user);
 
-    User asUser(UserDto userDto);
+    User asUser(UserDto user);
 }

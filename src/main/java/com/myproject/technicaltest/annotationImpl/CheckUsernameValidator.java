@@ -5,6 +5,12 @@ import com.myproject.technicaltest.annotation.CheckUsernameFormat;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
+/**
+ * CheckUsernameValidator class that verify if the username contain more than three characters
+ * with underscores, and numbers included.
+ * @author Yasmine MANSOURI
+ *
+ */
 
 public class CheckUsernameValidator implements ConstraintValidator<CheckUsernameFormat, String> {
 

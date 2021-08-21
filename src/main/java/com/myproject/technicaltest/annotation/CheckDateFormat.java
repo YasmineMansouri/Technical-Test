@@ -8,8 +8,13 @@ import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
-
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
+
+/**
+ * CheckDateFormat interface to help creating the annotation that check the date format.
+ * @author Yasmine MANSOURI
+ *
+ */
 
 @Target({ElementType.FIELD, ElementType.METHOD, ElementType.PARAMETER, ElementType.ANNOTATION_TYPE })
 @Retention(RUNTIME)

@@ -1,6 +1,14 @@
 package com.myproject.technicaltest.dto;
 
+/**
+ * UserDto class that is mapped with our entity User.
+ * @author Yasmine MANSOURI
+ *
+ */
+
 public class UserDto {
+
+    private Long id;
     private String username;
     private String birthdate;
 
@@ -11,6 +19,15 @@ public class UserDto {
     private String gender;
 
     public UserDto() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id
+        ;
     }
 
     public String getUsername() {

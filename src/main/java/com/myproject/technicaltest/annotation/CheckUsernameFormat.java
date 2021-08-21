@@ -11,6 +11,11 @@ import java.lang.annotation.Target;
 
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
+/**
+ * CheckUsernameFormat interface to help creating the annotation that check the username format.
+ * @author Yasmine MANSOURI
+ *
+ */
 
 @Target({ElementType.FIELD, ElementType.METHOD, ElementType.PARAMETER, ElementType.ANNOTATION_TYPE})
 @Retention(RUNTIME)
